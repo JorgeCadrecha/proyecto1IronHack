@@ -1,0 +1,91 @@
+header{
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    float: left;
+    height: calc(100vh - 60px)
+}
+
+.seccion1{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.seccion1Foto1{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    margin-left: 10%;
+}
+.seccion1Foto2{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+.seccion1Foto3{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    margin-right: 10%;
+}
+
+.seccion2{
+
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.seccion2Foto1{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    margin-left: 10%;
+}
+
+.bordecubo4{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+.cubo4{
+    border-color: black 3px;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: pink;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
